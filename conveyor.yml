@@ -1,0 +1,26 @@
+conveyor:
+  repository:
+    type: git
+    url:  git@github.com:treehouselabs/treehouse.git
+  targets:
+    app:
+      transport:
+        type: sftp
+        host: gaia.rodjer.nl
+        path: /home/fm/apps/treehouse
+        user: fm
+        pass: ~
+  build:
+    dir: ./build
+  deploy:
+    strategy:
+      type: releases
+    final:
+      -
+        type: ssh
+        targets: [app]
+        command: sudo service php5-fpm restart
+      -
+        type: ssh
+        targets: [app]
+        command: sudo service nginx restart
