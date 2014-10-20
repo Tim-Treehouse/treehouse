@@ -8,7 +8,7 @@
 	{
 		border-bottom: solid 1px #ddd;
 	}
-	
+
 	hr
 	{
 		border-top: solid 1px #777;
@@ -26,7 +26,7 @@
 		article
 		{
 		}
-		
+
 			section > .last-child,
 			article > .last-child
 			{
@@ -48,7 +48,7 @@
 			ul.divided
 			{
 			}
-			
+
 				ul.divided li
 				{
 					border-top: solid 1px #777;
@@ -57,7 +57,7 @@
 			ul.menu
 			{
 			}
-			
+
 				ul.menu li
 				{
 					border-left: solid 1px #777;
@@ -66,14 +66,14 @@
 			ul.icons
 			{
 				background: #333;
-				-ms-behavior: url('css/ie/PIE.htc');
+				-ms-behavior: url('/css/ie/PIE.htc');
 			}
 
 	/* Button */
-		
+
 		.button
 		{
-			-ms-behavior: url('css/ie/PIE.htc');
+			-ms-behavior: url('/css/ie/PIE.htc');
 		}
 
 /*********************************************************************************/
@@ -86,7 +86,7 @@
 
 		.icon.circled
 		{
-			-ms-behavior: url('css/ie/PIE.htc');
+			-ms-behavior: url('/css/ie/PIE.htc');
 		}
 
 /*********************************************************************************/
@@ -95,7 +95,7 @@
 
 	#header
 	{
-		-ms-behavior: url('css/ie/backgroundsize.min.htc');
+		-ms-behavior: url('/css/ie/backgroundsize.min.htc');
 	}
 
 /*********************************************************************************/
@@ -105,11 +105,11 @@
 	#nav
 	{
 	}
-	
+
 		#nav > ul
 		{
 		}
-		
+
 			#nav > ul:before,
 			#nav > ul:after
 			{
@@ -119,7 +119,7 @@
 
 			#nav > ul > li
 			{
-				-ms-behavior: url('css/ie/PIE.htc');
+				-ms-behavior: url('/css/ie/PIE.htc');
 			}
 
 				#nav > ul > li.active
@@ -130,7 +130,7 @@
 	.dropotron
 	{
 		background: #fff;
-		-ms-behavior: url('css/ie/PIE.htc');
+		-ms-behavior: url('/css/ie/PIE.htc');
 	}
 
 		.dropotron li
@@ -145,7 +145,7 @@
 			box-shadow: none !important;
 			margin-top: 1em;
 		}
-	
+
 /*********************************************************************************/
 /* Carousel                                                                      */
 /*********************************************************************************/
@@ -163,7 +163,7 @@
 			height: 7em;
 			margin-top: -3.5em;
 			border-radius: 100%;
-			-ms-behavior: url('css/ie/PIE.htc');
+			-ms-behavior: url('/css/ie/PIE.htc');
 		}
 
 			.carousel .forward
@@ -175,13 +175,13 @@
 			{
 				left: -3.5em;
 			}
-		
+
 			.carousel .forward:before,
 			.carousel .backward:before
 			{
 				display: none;
 			}
-			
+
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -189,19 +189,19 @@
 	#footer
 	{
 	}
-	
+
 		#footer ul.divided li,
 		#footer ul.menu li,
 		#footer hr
 		{
 			border-color: #3B373C;
 		}
-	
+
 		#footer .icons
 		{
 			background: #2F2930;
 		}
-	
+
 		#footer .copyright
 		{
 			color: #777;
